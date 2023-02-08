@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="quiz.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/xp.css"
+>
+    <title>Quiz - Playing</title>
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center column">
+            <h2 id="question">What is the question</h2>
+            <div class="answer-container">
+                <p class="answers">A</p>
+                <p class="answer-text" data-number="1">Choice1</p>
+            </div>
+            <div class="answer-container">
+                <p class="answers">B</p>
+                <p class="answer-text" data-number="2">Choice2</p>
+            </div>
+            <div class="answer-container">
+                <p class="answers">C</p>
+                <p class="answer-text" data-number="3">Choice3</p>
+            </div>
+            <div class="answer-container">
+                <p class="answers">D</p>
+                <p class="answer-text" data-number="4">Choice4</p>
+            </div>
+            <div id="hud">
+                <div id="hudItem">
+                    <p class="hudPrefix">
+                        Question
+                    </p>
+                    <h1 class="hudMainText" id="questionCounter">
+                        
+                    </h1>
+                </div>
+                <div id="hudItem">
+                    <p class="hudPrefix">
+                        Score
+                    </p>
+                    <h1 class="hudMainText" id="score">
+                        0
+                    </h1>
+                </div>
+                <div id="hudItem">
+                    <p class="hudPrefix">
+                        Timer
+                    </p>
+                    <h1 class="hudMainText" id="timer">
+                        0
+                    </h1>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.answer-container{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #999999;
+    background-color: whitesmoke;
+}
+.answer-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem #454545;
+
+}
+.answers {
+    padding: 1.5rem 2.5rem;
+    background-color: lightgray;
+    
+}
+.answer-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hudPrefix{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hudMainText{
+    text-align: center;
+}
+
