@@ -95,7 +95,7 @@ getNewQuestion = () => {
     if(availableQuestion.length === 0 || questionCounter > MAX_QUESTIONS){
        localStorage.setItem('mostRecentScore', score)
        
-        return window.location.assign('/quizEnd.html')
+        return window.location.assign('/TimedQuiz/quizEnd.html')
     }
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
